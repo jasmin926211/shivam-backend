@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "export NODE_ENV=dev && nodemon --exec 'eslint . && babel-node server.js'",
-    "build": "babel src -d dist/src --copy-files && babel config -d dist/config && babel server.js -d dist && babel server-gps.js -d dist",
+    "build": "babel src -d dist/src --copy-files && babel config -d dist/config && babel server.js -d dist",
     "start:prod": "export NODE_CONFIG_DIR=./dist/config && node dist/server.js",
     "seed:category": "yarn md-seed run category",
     "seed:event": "yarn md-seed run event"
