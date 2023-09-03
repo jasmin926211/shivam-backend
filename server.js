@@ -9,6 +9,8 @@ import controllers from '#/controllers';
 import logger from '#/logger';
 import { errorHandling, resourceNotFound } from '#/middlewares';
 
+console.log('config ====>:', config);
+
 dotenv.config();
 
 mongoConnection();
