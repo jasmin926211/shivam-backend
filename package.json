@@ -2,11 +2,10 @@
   "name": "shivam-backend",
   "version": "1.0.1",
   "description": "",
-  "node_args": "--experimental-modules",
-  "exec_mode": "cluster",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "start": "export NODE_ENV=dev && nodemon --exec 'eslint . && babel-node server.js'",
+    "start": "export NODE_ENV=dev && nodemon --exec 'eslint . && b¸¸abel-node server.js'",
     "build": "babel src -d dist/src --copy-files && babel config -d dist/config && babel server.js -d dist",
     "start:prod": "export NODE_CONFIG_DIR=./dist/config && node dist/server.js",
     "seed:category": "yarn md-seed run category",
