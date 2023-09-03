@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-export default {
+module.exports = {
   port: process.env.PORT || 3010,
   nodeEnv: process.env.NODE_ENV,
   logLevel: process.env.LOGLEVEL || 'debug',
