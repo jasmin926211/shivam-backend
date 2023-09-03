@@ -8,8 +8,8 @@
         "root": ["./src"],
         "alias": {
           "#/config": "./config/",
-          "#/connections": "./src/connections/index.js",
-          "#/controllers": "./src/controllers",
+          "#/connections": "./src/connections/",
+          "#/controllers": "./src/controllers/",
           "#/helpers": "./src/services/helpers/",
           "#/logger": "./config/logger.js",
           "#/models": "./src/models/",

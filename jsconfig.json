@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "#/config/*": ["./config/*"],
+      "#/connections/*": ["./src/connections/*"],
       "#/controllers/*": ["./src/controllers/*"],
       "#/helpers/*": ["./src/services/helpers/*"],
       "#/logger/*": ["./config/logger/*"],
