@@ -14,7 +14,7 @@
     "shivam",
     "backend"
   ],
-  "author": "Adrixus Tech. Studio",
+  "author": "Jasmin Thummar",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.17.6",
