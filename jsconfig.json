@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#/config/*": ["./config/*"],
+      "#/connections/*": ["./src/connections/*"],
+      "#/controllers/*": ["./src/controllers/*"],
+      "#/helpers/*": ["./src/services/helpers/*"],
+      "#/logger/*": ["./config/logger/*"],
+      "#/middlewares/*": ["./src/middlewares/*"],
+      "#/models/*": ["./src/models/*"],
+      "#/policies/*": ["./src/policies/*"],
+      "#/services/*": ["./src/services/*"],
+      "#/utilities/*": ["src/utilities/*"],
+      "#/exceptions/*": ["src/utilities/exceptions/*"],
+      "#/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
